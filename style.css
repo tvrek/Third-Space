@@ -76,8 +76,70 @@
 
 /* -------------------------------------------------------------------------------*/
 
-.support {
-    background-color: rgb(51, 51, 51);
+.Contact {
     margin: 0;
     padding: 0;
+    background: linear-gradient(90deg,rgba(51, 51, 51, 1), rgba(127, 138, 124, 1));
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.form-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(230, 200, 146);
+    margin-bottom: 5px;
+}
+
+.form-text hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(230, 200, 146);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.form textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.input:focus {
+    border: 2px solid rgb(243, 179, 61);
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
 }
