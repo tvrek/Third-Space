@@ -1,53 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Oswald:wght@600;700&display=swap');
+
 body {
+    background-color: rgb(51, 51, 51);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.headercontainer {
-    background-color: #0171F9;
-}
-
 .header {
-    height: 80px;
-    background-color: #0171F9;
-    color: #fff;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 1px 4px black;
     display: flex;
-    justify-content: space-between;
+    height: 100px;
     align-items: center;
-    padding: 30px 100px 0 100px;
-    max-width: 1300px;
-    margin: auto;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.headerLinks {
-    width: 50%;
+.header img {
+    height: 130px;
+    width: auto;
+    margin: 7px 0 0 25px;
 }
 
-.headerLinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-nav {
     list-style: none;
+    display: flex;
     gap: 70px;
     margin-right: 70px;
     font-size: 22px;
-    white-space: nowrap;
-
 }
 
-.headerLinks a {
+.header-nav a {
+    color: white;
     text-decoration: none;
-    color: #fff;
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.headerLinks a:hover {
-    background-color: #1A7FF9;
-    transition: .3s ease;
+.header-nav a:hover {
+    background-color: rgba(85, 77, 77, 0.733);
+    transition: 0.3s ease;
 }
 
 .dropdown {
@@ -55,8 +50,8 @@ body {
     list-style: none;
     margin-top: 6px;
     padding: 0;
-    color: #000;
-    background-color: #0056C6;
+    color: black;
+    background-color: rgba(107, 100, 100, 0.733);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     cursor: pointer;
@@ -64,23 +59,19 @@ body {
     z-index: 1;
 }
 
-.dropdown li{
+.dropdown li {
     padding: 20px 40px 15px 20px;
     font-weight: 600;
     border-radius: 15px;
-}
+} 
 
 .dropdown li:hover {
-    background-color: #1A7FF9;
+    background-color: aqua;
     transition: 0.3s ease;
     display: block;
 }
 
 .li-1:hover .dropdown {display: block;}
-
-.logo img {
-    width: 250px;
-}
 
 .trendingContainer {
     margin: auto;
