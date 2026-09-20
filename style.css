@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.headercontainer {
-    background-color: #0171F9;
-}
-
-.header {
-    height: 80px;
-    background-color: #0171F9;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px 0 100px;
-    max-width: 1300px;
-    margin: auto;
-}
-
-.headerLinks {
-    width: 50%;
-}
-
-.headerLinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    gap: 70px;
-    margin-right: 70px;
-    font-size: 22px;
-    white-space: nowrap;
-
-}
-
-.headerLinks a {
-    text-decoration: none;
-    color: #fff;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Oswald:wght@600;700&display=swap');
-
 .home {
     background-color: rgb(51, 51, 51);
     margin: 0;
@@ -56,7 +10,6 @@ body {
     height: 100px;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .header img {
@@ -76,21 +29,14 @@ body {
 .header-nav a {
     color: white;
     text-decoration: none;
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-.headerLinks a:hover {
-    background-color: #1A7FF9;
-    transition: .3s ease;
-=======
 .header-nav a:hover {
     background-color: rgba(85, 77, 77, 0.733);
     transition: 0.3s ease;
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
 }
 
 .dropdown {
@@ -98,13 +44,8 @@ body {
     list-style: none;
     margin-top: 6px;
     padding: 0;
-<<<<<<< HEAD
-    color: #000;
-    background-color: #0056C6;
-=======
     color: black;
     background-color: rgba(107, 100, 100, 0.733);
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
     backdrop-filter: blur(10px);
     border-radius: 15px;
     cursor: pointer;
@@ -112,16 +53,6 @@ body {
     z-index: 1;
 }
 
-<<<<<<< HEAD
-.dropdown li{
-    padding: 20px 40px 15px 20px;
-    font-weight: 600;
-    border-radius: 15px;
-}
-
-.dropdown li:hover {
-    background-color: #1A7FF9;
-=======
 .dropdown li {
     padding: 20px 40px 15px 20px;
     font-weight: 600;
@@ -130,62 +61,12 @@ body {
 
 .dropdown li:hover {
     background-color: aqua;
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
     transition: 0.3s ease;
     display: block;
 }
 
 .li-1:hover .dropdown {display: block;}
 
-<<<<<<< HEAD
-.logo img {
-    width: 250px;
-}
-
-.trendingContainer {
-    margin: auto;
-    max-width: 1300px;
-    margin-top: 100px;
-}
-
-.trendingHeader, .mostHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-items: center;
-    padding-bottom: 40px;
-    
-}
-
-.trendingHeader h1, .mostHeader h1, .categoryHeader h1 {
-    margin-top: 0;
-}
-
-
-.trendingCard, .mostCards, .categoryCards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.trendingCard .card {
-    position: relative;
-    margin-bottom: 50px;
-}
-
-
-.trendingCard .card img {
-    border-radius: 20px;
-}
-
-.trendingCard .card .cardInfo {
-    position: absolute;
-    top: 200px;
-    width: 100%;
-    background-color: #EEEEEE;
-    border-radius: 0 0 20px 20px;
-    padding-top: 15px;
-=======
 .background {
     position: relative;
     overflow: hidden;
@@ -213,175 +94,11 @@ body {
 }
 
 .trending-header {
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-<<<<<<< HEAD
-.trendingCard .card .cardName {
-    padding: 0 20px;
-}
-
-.trendingCard .cardName h3 {
-    margin-top: 0;
-}
-
-.trendingCard .cardInfo img:hover{
-    transform: scale(1.3);
-}
-
-/* END TRENDING GAMES */
-
-/* MOST PLAYED  */
-.cardImg img {
-    border-radius: 20px;
-}
-
-.mostCards .cardInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mostCards .cardInfo .genre {
-    margin-bottom: 0;
-    color: gray;
-}
-
-.mostContainer {
-    background-color: #EEEEEE;
-    margin-top: 200px;
-    padding: 50px;
-    border-radius: 100px;
-}
-
-.mostContainer .mostPlayed, .category {
-    max-width: 1300px;
-    margin: auto;
-}
-
-.categoryContainer {
-    margin-top: 60px;
-}
-
-.category .categoryHeader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.category .card .cardImg {
-    position: relative;
-    top: -20px;
-}
-
-.category .card .genre {
-    background-color: #0171F9;
-    text-align: center;
-    color: #fff;
-    padding: 15px 0 30px 0;
-    font-size: large;
-    font-weight: 500;
-    border-radius: 20px 20px 0 0;
-}
-
-.category .categoryCards {
-    margin-top: 30px;
-}
-
-.card {
-    transition: .3s;
-}
- .category .card:hover {
-    transform: scale(1.05);
- }
-
- .landingPageContainer {
-    background-color: #0171F9;
-    border-radius: 0 0 100px 100px;
- }
-
- .landingPage {
-    display: flex;
-    background-color: #0171F9;
-    color: #fff;
-    padding: 100px 0;
-    max-width: 1300px;
-    margin: auto;
- }
-
- .landingPage .slogan {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 70px;
-    
- }
-
- .landingPage .description {
-    color: #000;
-    width: 80%;
-    font-weight: 600;
-    text-align: justify;
-    font-size: x-large;
- }
-
- .leftSide {
-    padding-top: 30px;
-    flex: 8;
- }
-
- .imageContainer {
-    flex: 4;
- }
-
- .imageContainer img {
-    width: 100%;
-    border-radius: 20px;
- }
-
- .footerContainer {
-    background-color: #0171F9;
-    height: 150px;
-    border-radius: 100px 100px 0 0;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
- }
-
- .footer {
-    max-width: 1300px;
-    margin: auto;
-    text-align: center;
-    color: #fff;
-    font-weight: 500;
-    font-size: larger;
- }
-
- .btn {
-    border-radius: 50px;
-    height: 52px;
-    border: none;
-    font-weight: 600;
-    font-size: medium;
-    padding: 0 20px;
-    background-color: #EE626B;
-    color: #fff;
-    text-transform: uppercase;
-    transition: .3s;
- }
-
- .btn:hover {
-    background-color: #EE626B;
-    cursor: pointer;
- }
-
- .searchBar .searchBtn {
-    position: absolute;
-    left: 100px;
- }
-=======
 .trending-header h1 {
     margin: 0 0 10px 0;
     font-size: 50px;
@@ -512,4 +229,3 @@ body {
     border-radius: 50px;
     background-color: orange;
 }
->>>>>>> 56fb08ffd5f8c38206cab7e692a38453a2e8a6f2
