@@ -5,9 +5,9 @@
 <br>
 
 ## ⚽ purposes
--we made the website to make people know more about El Sharkia Emppi team.
--the website shows the players of the team and information about them.
--we made the code public to make people knows how to make a website like that.
+- we made the website to make people know more about El Sharkia Emppi team.
+- the website shows the players of the team and information about them.
+- we made the code public to make people knows how to make a website like that.
 ## 🧾 Description
 - the website about a national egyptaina team called El Sharkia Enppi which was founded in 2026.
 - the website is consisted of diffrent branches included, the Home page which shows the latest new of the club and introduce the club for anyone.
