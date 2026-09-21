@@ -17,9 +17,10 @@
 <p align="center">
 <img width="1571" height="662" alt="image" src="https://github.com/user-attachments/assets/fd328a99-63ec-4e39-91a1-8ee85d8c5938" />
 </p>
+
 ## 🗣️ Motivation
-1. We create the website to encourage the national new clubs with high potential to improve.
-2. spread the new clubs and let them known among the big clubs and put the eyes into them in the future.
-3. it contributes us and the national team to enhance and construct the path for the local talents. 
+1.We create the website to encourage the national new clubs with high potential to improve.
+2.spread the new clubs and let them known among the big clubs and put the eyes into them in the future.
+3.it contributes us and the national team to enhance and construct the path for the local talents. 
 
 
