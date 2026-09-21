@@ -14,3 +14,7 @@
 - furthermore, Team branch to ilistrute the players of the club and the managers.
 - thirdly, the section of about us that show the information about the club in general for instance, Our Ambitions, Home Stdium including the location and the Capacity. Also the kit of the club.
 - Moreover, the trophies that the club gain along its year in the Egyptian premier league and the club history in a fascinating way as shown in the image.
+<p align="center">
+<img width="1571" height="662" alt="image" src="https://github.com/user-attachments/assets/fd328a99-63ec-4e39-91a1-8ee85d8c5938" />
+</p>
+
